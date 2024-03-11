@@ -20,7 +20,7 @@ void topological_sort(){
         if(!vis[i])
             dfs(i, st);
     while(!st.empty()){
-        cout << st.top() << " ";
+        cout << st.top()+1 << " ";
         st.pop();
     }
 }

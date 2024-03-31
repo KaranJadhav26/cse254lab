@@ -15,7 +15,7 @@ int main(){
     {
         cin >> arr[i];
     }
-    int ans =0;
+    int ans = INT_MIN;
     for (int i = 0; i < n-1; i++)
     {
          int maxi=0;
